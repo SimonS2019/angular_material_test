@@ -1,0 +1,12 @@
+.mat-tab-group {
+    margin-bottom: 48px;
+  }
+  
+  ::ng-deep mat-tab-header {
+    align-self: center;
+    border-bottom: none;
+  }
+  
+  .fullheight {
+    height: 100%;
+  }

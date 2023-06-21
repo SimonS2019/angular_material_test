@@ -36,11 +36,17 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatTreeModule } from '@angular/material/tree';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { TreeComponent } from './tree/tree.component';
+import { TabsComponent } from './tabs/tabs.component';
+import { GridListComponent } from './grid-list/grid-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    TreeComponent,
+    TabsComponent,
+    GridListComponent
   ],
   imports: [
     BrowserModule,
