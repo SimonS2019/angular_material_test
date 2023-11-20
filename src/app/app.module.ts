@@ -10,7 +10,7 @@ import { MatBadgeModule } from '@angular/material/badge';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatCheckboxModule } from '@angular/material/checkbox';
-import { MatOptionModule, MatRippleModule } from '@angular/material/core';
+import { MatNativeDateModule, MatOptionModule, MatRippleModule } from '@angular/material/core';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatDividerModule } from '@angular/material/divider';
@@ -39,6 +39,8 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { TreeComponent } from './tree/tree.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { GridListComponent } from './grid-list/grid-list.component';
+import { AutocompleteComponent } from './autocomplete/autocomplete.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -46,7 +48,8 @@ import { GridListComponent } from './grid-list/grid-list.component';
     ToolbarComponent,
     TreeComponent,
     TabsComponent,
-    GridListComponent
+    GridListComponent,
+    AutocompleteComponent
   ],
   imports: [
     BrowserModule,
@@ -84,6 +87,8 @@ import { GridListComponent } from './grid-list/grid-list.component';
      MatToolbarModule,
      MatTooltipModule,
      MatTreeModule,
+     MatNativeDateModule,
+     ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
