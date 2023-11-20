@@ -63,9 +63,7 @@
         },
         "serve": {
           "options": {
-            "port": 6200,
-            "host": "192.168.30.233"
-
+            "port": 6200
           },
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
