@@ -41,6 +41,7 @@ import { TabsComponent } from './tabs/tabs.component';
 import { GridListComponent } from './grid-list/grid-list.component';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SelectComponent } from './select/select.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     TreeComponent,
     TabsComponent,
     GridListComponent,
-    AutocompleteComponent
+    AutocompleteComponent,
+    SelectComponent
   ],
   imports: [
     BrowserModule,

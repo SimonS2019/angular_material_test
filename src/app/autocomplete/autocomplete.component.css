@@ -9,12 +9,3 @@
   }
   
 
-  .no-ellipsis {
-    white-space: normal !important;
-    overflow: visible !important;
-  }
-
-
-.mat-option {
-    background-color: red !important;
-  }
